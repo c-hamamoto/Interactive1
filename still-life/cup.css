@@ -2,6 +2,10 @@ body{
 
 }
 
+/** {
+    transition: background 1500ms ease;    
+}
+*/
 .cup{
     position: relative;
     width: 600px;
@@ -12,12 +16,18 @@ body{
 .square {
     width: 260px;
     height: 400px;
-    background: black;
     position: absolute;
+    background: black;
     top: 100px;
     left: 150px;
     border-radius: 20px 20px 120px 120px;
+
+    /*cursor: url('flame.png'), auto;   */
 }
+
+/*.square:hover, .square:hover ~ div.handle {
+    background: red;
+} */
 
 .handle {
     width: 200px;
