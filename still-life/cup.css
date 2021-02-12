@@ -2,15 +2,19 @@ body{
 
 }
 
-/** {
-    transition: background 1500ms ease;    
+* {
+    transition: all 1500ms ease;    
 }
-*/
+
 .cup{
     position: relative;
     width: 600px;
     height: 600px;
     background: purple;
+}
+
+.cup:hover, .cup:hover .counter{
+    background: yellow;
 }
 
 .square {
@@ -22,8 +26,26 @@ body{
     left: 150px;
     border-radius: 20px 20px 120px 120px;
 
-    /*cursor: url('flame.png'), auto;   */
+    cursor: url('flame.png'), auto;   
 }
+
+.square:hover, .square:hover ~ .handle {
+    background: red;
+}
+
+.square:hover, .square:hover ~ .handle, .square:hover ~ .counter {
+    filter: blur(10px);
+}
+
+/*.square:hover {
+    background: red;
+}
+
+*/
+.square:hover ~ div.handle {
+    background: red;
+}
+
 
 /*.square:hover, .square:hover ~ div.handle {
     background: red;
