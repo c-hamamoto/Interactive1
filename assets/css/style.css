@@ -9,6 +9,11 @@
   src: url("../fonts/Hershey-Noailles-Futura-Simplex-Light.woff") format("woff");
 }
 
+body {
+	font-family: "Hershey";
+	background: beige;
+}
+
 
 #container {
 	padding: 40px;
