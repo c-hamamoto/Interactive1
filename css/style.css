@@ -1,36 +1,15 @@
-* {
-	box-sizing: border-box;
+/*@font-face {
+  font-family: "Authentic Sans";
+  src: url("../assets/fonts/AUTHENTICSans-90.woff") format("woff"),
+       url("../assets/fonts/AUTHENTICSans-90.woff2") format("woff2");
+}
+*/
+@font-face {
+  font-family: "Hershey";
+  src: url("../fonts/Hershey-Noailles-Futura-Simplex-Light.woff") format("woff");
 }
 
-body { 
-	font-family: arial, helvetica, sans-serif;
-	color: blue;
-	font-size: 24px;
-	background: #a5d5ff;
-}
-
-a {
-	color: black;
-}
-
-h3 {
-	font-size: 24px;
-}
-
-ul {
-	border-radius: 20px;
-	padding: 10px 20px;
-}
-
-li {
-	list-style-type: lower-alpha;
-	list-style-position: inside;
-}
 
 #container {
 	padding: 40px;
-}
-
-pre {
-	text-shadow: 0px 0px 12px red;	
 }
